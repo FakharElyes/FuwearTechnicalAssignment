@@ -1,0 +1,11 @@
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\bin\Debug\net7.0\FuwearServices.deps.json
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\bin\Debug\net7.0\FuwearServices.dll
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\bin\Debug\net7.0\FuwearServices.pdb
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.GeneratedMSBuildEditorConfig.editorconfig
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.AssemblyInfoInputs.cache
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.AssemblyInfo.cs
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.csproj.CoreCompileInputs.cache
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.dll
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\refint\FuwearServices.dll
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\FuwearServices.pdb
+E:\Khedma\Site Web\Fuwear\Fuwear.Services\obj\Debug\net7.0\ref\FuwearServices.dll
