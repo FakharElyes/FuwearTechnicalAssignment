@@ -9,10 +9,10 @@ namespace Fuwear.Controllers
     [ApiController]
     public class FibonacciController : ControllerBase
     {
-        private readonly IFibonacciService iFibonacciService;
-        public FibonacciController(IFibonacciService iFibonacciService)
+        private readonly IFibonacciService fibonacciService;
+        public FibonacciController(IFibonacciService fibonacciService)
         {
-            this.iFibonacciService = iFibonacciService ?? throw new ArgumentNullException(nameof(iFibonacciService));
+            this.fibonacciService = fibonacciService ?? throw new ArgumentNullException(nameof(fibonacciService));
         }
 
         [HttpGet()]
@@ -24,7 +24,7 @@ namespace Fuwear.Controllers
                 return Ok(-1);
             }
 
-            BigInteger result = await this.iFibonacciService.CalculateFibonacciAsync(n);
+            BigInteger result = await this.fibonacciService.CalculateFibonacciAsync(n);
             return Ok(result.ToString());
         }
     }

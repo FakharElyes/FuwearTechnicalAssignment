@@ -8,11 +8,11 @@ namespace FuwearAPI.Controllers
     [ApiController]
     public class ActionsController : ControllerBase
     {
-        private readonly IActionsService iActionsService;
+        private readonly IActionsService actionsService;
 
-        public ActionsController(IActionsService iActionsService)
+        public ActionsController(IActionsService actionsService)
         {
-            this.iActionsService = iActionsService ?? throw new ArgumentNullException(nameof(iActionsService));
+            this.actionsService = actionsService ?? throw new ArgumentNullException(nameof(actionsService));
         }
 
         [HttpGet()]
@@ -28,7 +28,7 @@ namespace FuwearAPI.Controllers
             };
 
 
-            var actionWithHighestAvgPrice = await this.iActionsService.GetActionWithHighestAvgPrice(actions, prices);
+            var actionWithHighestAvgPrice = await this.actionsService.GetActionWithHighestAvgPrice(actions, prices);
             return Ok(actionWithHighestAvgPrice);
         }
 
